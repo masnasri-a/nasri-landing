@@ -79,7 +79,7 @@ export default function Navbar() {
                   className="hidden sm:block font-mono text-xs font-medium"
                   style={{ color: "var(--text-muted)" }}
                 >
-                  nasri.dev
+                  nasri adzlani
                 </span>
               </button>
 

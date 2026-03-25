@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import CustomCursor from "@/components/CustomCursor";
 import ScrollToTop from "@/components/ScrollToTop";
+import SplashWrapper from "@/components/SplashWrapper";
 
 export const metadata: Metadata = {
   title: "Nasri Adzlani — Full-stack, Blockchain & Data Engineer",
@@ -74,9 +75,11 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-full">
-        <CustomCursor />
-        {children}
-        <ScrollToTop />
+        <SplashWrapper>
+          <CustomCursor />
+          {children}
+          <ScrollToTop />
+        </SplashWrapper>
       </body>
     </html>
   );

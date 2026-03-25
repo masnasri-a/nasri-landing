@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1",
+    "title": "KOL Discovery Platform",
+    "description": "A full-stack platform to discover and analyze Key Opinion Leaders (KOLs) for marketing teams. Built with Next.js frontend and Golang backend.",
+    "descriptionId": "Platform full-stack untuk menemukan dan menganalisis KOL (Key Opinion Leaders) untuk tim marketing.",
+    "category": "fullstack",
+    "techStack": ["Next.js", "Golang", "PostgreSQL", "Redis"],
+    "githubUrl": "https://github.com/masnasri-a",
+    "liveUrl": "",
+    "company": "IDN Media",
+    "featured": true
+  },
+  {
+    "id": "2",
+    "title": "Ethereum Smart Contract Suite",
+    "description": "A comprehensive suite of Ethereum smart contracts including ERC-20 tokens, NFT contracts, and DeFi protocols. Fully tested with Hardhat.",
+    "descriptionId": "Kumpulan smart contract Ethereum termasuk token ERC-20, kontrak NFT, dan protokol DeFi.",
+    "category": "blockchain",
+    "techStack": ["Solidity", "Hardhat", "Truffle", "TypeScript", "Ethereum"],
+    "githubUrl": "https://github.com/masnasri-a",
+    "liveUrl": "",
+    "company": "PT eBdesk Teknologi",
+    "featured": true
+  },
+  {
+    "id": "3",
+    "title": "Solana Staking Program",
+    "description": "A high-performance staking program built on Solana blockchain using Rust. Supports delegated staking, rewards distribution, and governance.",
+    "descriptionId": "Program staking berperforma tinggi di blockchain Solana menggunakan Rust.",
+    "category": "blockchain",
+    "techStack": ["Rust", "TypeScript", "Solana", "Web3.js"],
+    "githubUrl": "https://github.com/masnasri-a",
+    "liveUrl": "",
+    "company": "PT eBdesk Teknologi",
+    "featured": true
+  },
+  {
+    "id": "4",
+    "title": "GPT Data Pipeline",
+    "description": "An AI-powered data pipeline that integrates GPT API for automated data processing, classification, and insights generation at scale.",
+    "descriptionId": "Pipeline data bertenaga AI yang mengintegrasikan GPT API untuk pemrosesan data otomatis.",
+    "category": "ai",
+    "techStack": ["Python", "FastAPI", "GPT API", "PostgreSQL", "Docker"],
+    "githubUrl": "https://github.com/masnasri-a",
+    "liveUrl": "",
+    "company": "PT eBdesk Teknologi",
+    "featured": false
+  },
+  {
+    "id": "5",
+    "title": "AI WhatsApp Chatbot",
+    "description": "An intelligent WhatsApp chatbot powered by LLMs for automated customer support, lead generation, and business workflows.",
+    "descriptionId": "Chatbot WhatsApp cerdas berbasis LLM untuk dukungan pelanggan otomatis.",
+    "category": "ai",
+    "techStack": ["Python", "LLM", "React", "Node.js", "WhatsApp API"],
+    "githubUrl": "https://github.com/masnasri-a",
+    "liveUrl": "",
+    "company": "Affinity Digital Asia",
+    "featured": true
+  },
+  {
+    "id": "6",
+    "title": "Instagram Engagement Rate Analyzer",
+    "description": "A data analytics tool that analyzes Instagram accounts' engagement rates, follower growth trends, and content performance metrics.",
+    "descriptionId": "Alat analitik data untuk menganalisis tingkat engagement akun Instagram.",
+    "category": "data",
+    "techStack": ["Python", "Elasticsearch", "MongoDB", "FastAPI"],
+    "githubUrl": "https://github.com/masnasri-a",
+    "liveUrl": "",
+    "company": "PT Indonesia Indicator",
+    "featured": false
+  },
+  {
+    "id": "7",
+    "title": "Government Web App",
+    "description": "A government-scale web application built with Java and Zkoss framework, handling complex workflows and large-scale data management.",
+    "descriptionId": "Aplikasi web skala pemerintah dengan Java dan Zkoss untuk pengelolaan data berskala besar.",
+    "category": "fullstack",
+    "techStack": ["Java", "Zkoss", "PostgreSQL", "Spring Boot"],
+    "githubUrl": "https://github.com/masnasri-a",
+    "liveUrl": "",
+    "company": "PT Amalura Multi Dimensi",
+    "featured": false
+  },
+  {
+    "id": "8",
+    "title": "Social Media Data Pipeline",
+    "description": "A real-time social media data pipeline processing millions of data points daily using Kafka, Airflow, and Elasticsearch for analytics.",
+    "descriptionId": "Pipeline data media sosial real-time yang memproses jutaan titik data harian.",
+    "category": "data",
+    "techStack": ["Apache Kafka", "Apache Airflow", "Elasticsearch", "MongoDB", "Redis"],
+    "githubUrl": "https://github.com/masnasri-a",
+    "liveUrl": "",
+    "company": "PT Indonesia Indicator",
+    "featured": true
+  }
+]

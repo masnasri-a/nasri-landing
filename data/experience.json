@@ -1,0 +1,126 @@
+[
+  {
+    "id": "1",
+    "company": "Affinity Digital Asia",
+    "role": "Full-stack Developer",
+    "period": "Jan 2024 – Present",
+    "location": "Remote",
+    "techStack": ["Golang", "Spring Boot", "Next.js", "Angular", "Python", "LLM"],
+    "bullets": [
+      "Architected and built full-stack applications with Golang and Spring Boot backends",
+      "Developed modern frontend interfaces using Next.js and Angular",
+      "Integrated LLM-powered features including AI WhatsApp chatbot for automated workflows",
+      "Built Python-based AI pipelines for business automation"
+    ],
+    "bulletsId": [
+      "Merancang dan membangun aplikasi full-stack dengan backend Golang dan Spring Boot",
+      "Mengembangkan antarmuka frontend dengan Next.js dan Angular",
+      "Mengintegrasikan fitur berbasis LLM termasuk chatbot WhatsApp AI",
+      "Membangun pipeline AI berbasis Python untuk otomasi bisnis"
+    ],
+    "current": true
+  },
+  {
+    "id": "2",
+    "company": "SALT / PT Ako Media Asia",
+    "role": "R&D Lead & Full-stack Engineer",
+    "period": "Oct 2023 – Feb 2025",
+    "location": "Remote",
+    "techStack": ["NestJS", "Next.js", "Python", "Java", "PostgreSQL", "Redis"],
+    "bullets": [
+      "Led R&D team to explore and prototype emerging technologies",
+      "Built full-stack applications using NestJS and Next.js",
+      "Designed database architectures with PostgreSQL and Redis",
+      "Mentored engineers and drove technical decision-making"
+    ],
+    "bulletsId": [
+      "Memimpin tim R&D untuk mengeksplorasi dan memprototype teknologi terbaru",
+      "Membangun aplikasi full-stack menggunakan NestJS dan Next.js",
+      "Merancang arsitektur database dengan PostgreSQL dan Redis",
+      "Membimbing engineer dan memimpin pengambilan keputusan teknis"
+    ],
+    "current": false
+  },
+  {
+    "id": "3",
+    "company": "IDN Media",
+    "role": "Blockchain & Full-stack Developer",
+    "period": "Feb 2022 – Jun 2024",
+    "location": "Remote",
+    "techStack": ["Rust", "Next.js", "Golang", "Smart Contracts"],
+    "bullets": [
+      "Developed Rust-based smart contracts for blockchain infrastructure",
+      "Built the KOL Discovery Platform with Next.js and Golang",
+      "Integrated Web3 features into existing media platforms",
+      "Collaborated with product teams to ship blockchain-powered features"
+    ],
+    "bulletsId": [
+      "Mengembangkan smart contract berbasis Rust untuk infrastruktur blockchain",
+      "Membangun KOL Discovery Platform dengan Next.js dan Golang",
+      "Mengintegrasikan fitur Web3 ke platform media yang sudah ada",
+      "Berkolaborasi dengan tim produk untuk merilis fitur berbasis blockchain"
+    ],
+    "current": false
+  },
+  {
+    "id": "4",
+    "company": "PT eBdesk Teknologi",
+    "role": "Blockchain Developer",
+    "period": "Sep 2021 – Aug 2023",
+    "location": "Bandung, Indonesia",
+    "techStack": ["Solidity", "Truffle", "Hardhat", "Ethereum", "Solana", "FastAPI"],
+    "bullets": [
+      "Developed and audited Solidity smart contracts on Ethereum",
+      "Built Solana staking programs using Rust",
+      "Created GPT-powered data pipelines with FastAPI",
+      "Deployed and maintained DeFi protocols in production"
+    ],
+    "bulletsId": [
+      "Mengembangkan dan mengaudit smart contract Solidity di Ethereum",
+      "Membangun program staking Solana menggunakan Rust",
+      "Membuat pipeline data berbasis GPT dengan FastAPI",
+      "Men-deploy dan memelihara protokol DeFi di production"
+    ],
+    "current": false
+  },
+  {
+    "id": "5",
+    "company": "PT Indonesia Indicator",
+    "role": "Data Engineer",
+    "period": "Jul 2020 – Aug 2023",
+    "location": "Jakarta, Indonesia",
+    "techStack": ["Elasticsearch", "MongoDB", "FastAPI", "Spring Boot", "Redis", "Kafka", "Apache Airflow"],
+    "bullets": [
+      "Built large-scale social media data pipelines processing millions of records daily",
+      "Designed real-time data streaming with Kafka and RabbitMQ",
+      "Developed data orchestration workflows using Apache Airflow",
+      "Built analytics APIs with FastAPI and Spring Boot"
+    ],
+    "bulletsId": [
+      "Membangun pipeline data media sosial berskala besar yang memproses jutaan record harian",
+      "Merancang streaming data real-time dengan Kafka dan RabbitMQ",
+      "Mengembangkan workflow orkestrasi data menggunakan Apache Airflow",
+      "Membangun API analitik dengan FastAPI dan Spring Boot"
+    ],
+    "current": false
+  },
+  {
+    "id": "6",
+    "company": "PT Amalura Multi Dimensi",
+    "role": "Full-stack Developer",
+    "period": "2025",
+    "location": "Remote",
+    "techStack": ["Java", "Zkoss", "PostgreSQL"],
+    "bullets": [
+      "Developed government-scale web application with Java and Zkoss framework",
+      "Managed complex workflows and large-scale data processing",
+      "Delivered high-quality software for public sector clients"
+    ],
+    "bulletsId": [
+      "Mengembangkan aplikasi web skala pemerintah dengan Java dan Zkoss",
+      "Mengelola workflow kompleks dan pemrosesan data berskala besar",
+      "Menghasilkan software berkualitas tinggi untuk klien sektor publik"
+    ],
+    "current": false
+  }
+]

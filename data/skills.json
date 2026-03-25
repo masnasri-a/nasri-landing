@@ -1,0 +1,29 @@
+{
+  "categories": [
+    {
+      "name": "Backend",
+      "nameId": "Backend",
+      "skills": ["Python", "Golang", "Java / Spring Boot", "Node.js", "NestJS", "Rust", "FastAPI"]
+    },
+    {
+      "name": "Frontend",
+      "nameId": "Frontend",
+      "skills": ["Next.js", "React", "Angular", "TypeScript"]
+    },
+    {
+      "name": "Blockchain",
+      "nameId": "Blockchain",
+      "skills": ["Solidity", "Rust (Solana)", "Smart Contracts", "Truffle", "Hardhat", "Web3.js"]
+    },
+    {
+      "name": "Data & Infra",
+      "nameId": "Data & Infrastruktur",
+      "skills": ["Apache Kafka", "RabbitMQ", "Apache Airflow", "Elasticsearch", "Redis", "AWS", "Docker"]
+    },
+    {
+      "name": "Database",
+      "nameId": "Database",
+      "skills": ["PostgreSQL", "MySQL", "MongoDB"]
+    }
+  ]
+}

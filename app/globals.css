@@ -1,26 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
 
+/* ─── CSS Variables ─── */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg-primary: #050a0e;
+  --bg-secondary: #0a1520;
+  --bg-card: #0d1b2a;
+  --bg-card-hover: #112233;
+  --accent-orange: #FF6B35;
+  --accent-cyan: #00D4FF;
+  --text-primary: #F0F4F8;
+  --text-secondary: #8BA3BC;
+  --text-muted: #4A6480;
+  --border: #1a2d40;
+  --border-bright: #2a4060;
+  --font-display: 'Syne', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+/* ─── Base reset — inside @layer base so Tailwind utilities can override ─── */
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--bg-primary);
+  }
+
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: var(--font-display);
+    overflow-x: hidden;
+  }
+
+  @media (min-width: 769px) {
+    body {
+      cursor: none;
+    }
+  }
+
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { background: var(--bg-primary); }
+  ::-webkit-scrollbar-thumb { background: var(--accent-orange); border-radius: 2px; }
+  ::-webkit-scrollbar-thumb:hover { background: var(--accent-cyan); }
+
+  ::selection {
+    background-color: var(--accent-orange);
+    color: var(--bg-primary);
+  }
+
+  *:focus-visible {
+    outline: 2px solid var(--accent-orange);
+    outline-offset: 2px;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* ─── Component utilities ─── */
+@layer utilities {
+  .font-display { font-family: var(--font-display); }
+  .font-mono { font-family: var(--font-mono); }
+
+  .gradient-text-orange {
+    background: linear-gradient(135deg, var(--accent-orange), #FF9A6C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .gradient-text-cyan {
+    background: linear-gradient(135deg, var(--accent-cyan), #7DF9FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .card-glass {
+    background: rgba(13, 27, 42, 0.8);
+    backdrop-filter: blur(12px);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+  }
+
+  .card-glass:hover {
+    border-color: var(--border-bright);
+  }
+
+  .glow-orange { box-shadow: 0 0 20px rgba(255, 107, 53, 0.2); }
+  .glow-cyan { box-shadow: 0 0 20px rgba(0, 212, 255, 0.2); }
+
+  .typing-cursor::after {
+    content: '|';
+    animation: blink 0.7s infinite;
+    color: var(--accent-orange);
+  }
+
+  .timeline-line {
+    background: linear-gradient(to bottom, var(--accent-orange), var(--accent-cyan), transparent);
+  }
+
+  .skill-badge:hover {
+    box-shadow: 0 0 16px rgba(255, 107, 53, 0.4);
+    border-color: var(--accent-orange) !important;
+  }
+
+  .section-padding {
+    padding: 4rem 0;
+  }
+
+  @media (min-width: 768px) {
+    .section-padding {
+      padding: 6rem 0;
+    }
+  }
+
+  .container-custom {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  @media (min-width: 640px) {
+    .container-custom {
+      padding: 0 1.5rem;
+    }
+  }
+
+  .scrollbar-hide::-webkit-scrollbar { display: none; }
+  .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+
+  .badge-orange {
+    background: rgba(255, 107, 53, 0.12);
+    color: var(--accent-orange);
+    border: 1px solid rgba(255, 107, 53, 0.25);
+  }
+
+  .badge-cyan {
+    background: rgba(0, 212, 255, 0.12);
+    color: var(--accent-cyan);
+    border: 1px solid rgba(0, 212, 255, 0.25);
+  }
+
+  .tilt-card {
+    transform-style: preserve-3d;
+    transition: transform 0.3s ease;
+  }
+
+  .custom-cursor {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--accent-orange);
+    position: fixed;
+    pointer-events: none;
+    z-index: 99999;
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s ease, opacity 0.2s ease;
+  }
+
+  .custom-cursor-follower {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 107, 53, 0.5);
+    position: fixed;
+    pointer-events: none;
+    z-index: 99998;
+    transform: translate(-50%, -50%);
+    transition: left 0.12s ease, top 0.12s ease;
+  }
+
+  @media (max-width: 768px) {
+    .section-padding { padding: 4rem 0; }
+    .container-custom { padding: 0 1rem; }
+  }
+}
+
+/* ─── Keyframes — must be outside @layer ─── */
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
 }
